@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    color: rgb(255, 255, 255);
+    font-family: arial;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    position: sticky;
+}
+
+@media screen and (max-width: 500px){
+    body{
+        background-size: 300%;
+        font-size: small;
+    }
+
+    .paragraph{
+        font-size: 10;
+    }
+
+    .header-div {
+        width:100%;
+    }
+}
+
+#imagem-banda{
+    width: 70%;
+}
+
+.body-div{
+    background-image: url(assets\images\metallica-wallpaper.jpg);
+    margin:20px;
+    max-height: 800px;
+    text-align: center;
+    
+}
+
+.text-image-box{
+    display: inline-block;
+    flex-direction: row;
+}
+
+.header-div{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo{
+    margin:10px;
+    width:150px;
+}
+
+.link-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style:none;
+
+}
+
+#menu ul li a {
+    padding: 2px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#menu ul li{
+    margin: 10px;
+}
+
+#menu ul li a:hover{
+    padding: 2px 30px;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.208);
+    border-radius: 20px;
+    
+}
+
+.paragraph{
+    font-size: 20px;
+}
+
+#body-2{
+    height: 700px;
+    background-color: white;
+}
+
+.secao-2{
+    height: 300px;
+    display: flex;
+    background-image: url('assets\images\metallica-wallpaper.jpg');
+} 
